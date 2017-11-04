@@ -3,29 +3,39 @@
 <head>
 <title>Contact</title>
 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<nav id="navbar-example2" class="navbar navbar-light bg-light">
+ <div id= "nav-text" class="p-3 mb-2 bg-info text-white"> Navbar</div>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+           <a class="nav-link" href="index.html">About |</a>
+</li>
+    <li class="nav-item">
+      <a class="nav-link" href="1.html">Portfolio |</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+    
+     </ul>
+</nav>
 
-
-<div class="topnav">
-<div id ="header"><strong>
-Anindya</strong>
-</div>
-<div id="top-links">
-  <a href="contact.html">Contact</a>
-  <a href="1.html">Portfolio     |</a>
-  <a href="index.html">About     |</a>
-</div> <!--div for header links-->
-</div>
-
+<div class="wrapper">
 
 <div class="container">
-<!--first box in container-->
-<div id="about-box">
-<h1 >Contact </h1>
-<hr>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="page-header">
+          <h1 >Contact </h1><hr>
+        </div>
+        <div class="row" ml1>
+<div class="col-md-12">
+      
 <form>
 	<label>
 	Name <br> 
@@ -38,32 +48,34 @@ Anindya</strong>
 	</label>
 	<br> <br> <label>
 		Message <br> 
-		<textarea cols="70" rows="10" name="comment"></textarea>
+		<textarea cols="39" rows="8" name="comment"></textarea>
 	</label>
 <br><br>
 	<button class="button" >Submit</button>
 
 </form>
-
-
 </div>
-
-<!--second box in container-->
-<div id= "contact-box">
-<h2>Connect With Me </h2>
-<hr>
-<a href="https://github.com/anindya1234" target="_blank"> <img id= "image-contact" src="assets/images/github.png"></a>
-<a href="https://www.linkedin.com/in/anindyag/" target="_blank"> <img id= "image-contact" src="assets/images/linkedin.png"></a>
+ </div>
+     </div>
+      <div class="col-md-3">
+          <div class="card" style="width: 20rem;">
+          <h2>Connect With Me</h2> 
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"> 
+    <a href="https://github.com/anindya1234" target="_blank"> <img id= "image-contact" src="assets/images/github.png"></a>
+<a href="https://www.linkedin.com/in/anindyag/" target="_blank"> <img id= "image-contact" src="assets/images/linkedin.png"> </a>
 <a href="https://stackoverflow.com/users/8717197/anindya-gupta?tab=profile" target="_blank"> <img id= "image-contact" src="assets/images/stack.png"></a>
+</li> </ul>
+           </div>         
+      </div>     
+
+    </div>
+<div class="fixed-bottom">  @Copyright 2017 Anindya Gupta</div>
+
+
 </div>
-<!--close container-->
+
 </div>
-
-
-<footer>
-  @Copyright 2017 Anindya Gupta
-</footer>
-
 </body>
 
 
